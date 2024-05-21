@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registrar Matéria</title>
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+</head>
+<body>
+    <h1>Registrar Matéria</h1>
+    <form id="materiaForm">
+        <label for="materiaName">Nome:</label>
+        <input type="text" id="materiaName" name="materiaName" value=""><br><br>
+        <button type="button" onclick="submitForm()">Salvar</button>
+    </form>
+    <script>
+        function submitForm() {
+            var nome = document.getElementById('materiaName').value;
+            app.submitForm(nome);
+        }
+    </script>
+</body>
+</html>

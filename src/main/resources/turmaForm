@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registrar Turma</title>
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+</head>
+<body>
+    <h1>Registrar Turma</h1>
+    <form id="turmaForm">
+        <button type="button" onclick="submitForm()">Registrar Turma</button>
+    </form>
+    <script>
+        function submitForm() {
+            app.submitForm();
+        }
+    </script>
+</body>
+</html>

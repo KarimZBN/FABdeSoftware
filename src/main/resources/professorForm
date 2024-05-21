@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registrar Professor</title>
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+</head>
+<body>
+    <h1>Registrar Professor</h1>
+    <form id="professorForm">
+        <label for="professorName">Nome:</label>
+        <input type="text" id="professorName" name="professorName" value=""><br>
+        <button type="button" onclick="submitForm()">Salvar</button>
+    </form>
+    <script>
+        function submitForm() {
+            var nome = document.getElementById('professorName').value;
+            app.submitForm(nome);
+        }
+    </script>
+</body>
+</html>
