@@ -95,5 +95,5 @@ CREATE TABLE Presenca (
 );
 ```
 # Contato
-Karim Galil Tamimi Alzeben - ktalzeben@gmail.com
-Vinicius Nessler - vnessler266@gmail.com
+ - Karim Galil Tamimi Alzeben - ktalzeben@gmail.com
+ - Vinicius Nessler - vnessler266@gmail.com
